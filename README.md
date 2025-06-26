@@ -26,3 +26,11 @@
 ```bash
 git clone  https://github.com/jebin1727/Travel-Bot.git
 cd travel-bot
+
+python -m venv venv
+source venv/bin/activate    # Linux/macOS
+venv\Scripts\activate       # Windows
+
+pip install -r requirements.txt
+
+python main.py
